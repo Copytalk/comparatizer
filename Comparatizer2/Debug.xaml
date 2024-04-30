@@ -1,0 +1,17 @@
+﻿<Window x:Name="Debug" x:Class="Comparatizer.DebugWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Comparatizer"
+        mc:Ignorable="d"
+        Title="Debug" Height="450" Width="800" Closing="Debug_Closing">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto" MinHeight="25" MaxHeight="50"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="tbxDebugInput" Grid.Row="1"/>
+        <TextBox x:Name="tbxDebugOutput" IsReadOnly="True"/>
+    </Grid>
+</Window>

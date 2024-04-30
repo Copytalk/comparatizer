@@ -1,0 +1,41 @@
+﻿<Window x:Name="Main" x:Class="Comparatizer.MainWindow"
+		xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+		xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+		xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+		xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+		xmlns:local="clr-namespace:Comparatizer2"
+		mc:Ignorable="d"
+		Title="MainWindow" Height="500" Width="800" Closing="Main_Closing">
+    <Grid x:Name="gridMain">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="5" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="1*" MaxHeight="50"/>
+        </Grid.RowDefinitions>
+        <GroupBox x:Name="gbxQAText" Header="QA Text">
+            <RichTextBox x:Name="rtbQAText" TabIndex="1" SpellCheck.IsEnabled="True" FontSize="16" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text="Paste QA Text Here"/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+        </GroupBox>
+        <GroupBox x:Name="gbxScribeText" Grid.Column="2" Header="Scribe Text">
+            <RichTextBox x:Name="rtbScribeText" TabIndex="2" SpellCheck.IsEnabled="True" FontSize="16" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                <FlowDocument>
+                    <Paragraph>
+                        <Run Text="Paste Scribe Text Here"/>
+                    </Paragraph>
+                </FlowDocument>
+            </RichTextBox>
+        </GroupBox>
+        <Button x:Name="btnCompare" Content="Comparatize" Grid.ColumnSpan="3" Click="btnCompare_Click" Grid.Row="2" Margin="100,0,0,0"/>
+        <Button x:Name="btnSettings" Content="Settings" Grid.Row="1" HorizontalAlignment="Left" Width="50" Click="btnSettings_Click"/>
+        <Button x:Name="btnDebug" Content="Debug" Grid.Row="1" HorizontalAlignment="Left" Margin="50,0,0,0" Width="50" Click="btnDebug_Click"/>
+    </Grid>
+</Window>

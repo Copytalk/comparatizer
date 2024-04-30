@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Comparatizer.exe" version="1.0.0.1" publicKeyToken="7c578c639b2912b8" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Comparatizer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Comparatizer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Comparatizer.exe" size="15272">
+      <assemblyIdentity name="Comparatizer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>IH1vOau8/Z9e4ShCJa15GAXj7slp6DnYMB82bUrc3qg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Comparatizer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DMACIA\hades" issuerKeyHash="febd1ec6bf4b1e07fe4129a6b0163f05d7265043" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BCYb9aP2ks+WIKrk7/PePeaFV9gBF7S/HiRZflijeVU=</DigestValue></Reference></SignedInfo><SignatureValue>k67a6nTY5Ev0IOcYPDTKWOEXRQeMsu94rXHrTjoE5bvquf4eJ3kPZhKN+MffIRXzJPNUh8Rip73331BwSLcpN4lSrNUV8U1LMxIvHg9LuiGmkD7Zzhg2yiild0zw0cGWkBAKFvJeWJ/hk14Pjt9c6ej//1UPy1fkamJAbtc6to8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>xHR5EOW+ZsrEgQA+uGbpcy9Yrp/lSacZg1yZRPdyI4yTp/2SFw8JFdPy9cGmejypUjLBJqBLDacT7DVIoz1d4KtKhB1ZU3ZNqwSOMJV1T6qYYFIAjAb9AZFZRqoCpH9INZQDp6S7s4MPP+usIpSERo7otvrHrnEg692uqn3TUWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5579a3587e59241ebfb41701d85785e63ddef3efe4aa2096cf92f6a3f51b2604" Description="" Url=""><as:assemblyIdentity name="Comparatizer.exe" version="1.0.0.1" publicKeyToken="7c578c639b2912b8" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DMACIA\hades</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>OHatPkLkzPgOU/OBV6c85Dkcr3iB832mG35IVBUdFb4=</DigestValue></Reference></SignedInfo><SignatureValue>ZaVPPGaaLhLzD1mytF53i2sSwFZU1Kq30Zo0genyPSPCcT7enajr82QftShxQicK7ZtaVXMKWPF7EhOvOZTdb+TOA+ZLki5GQKgNJsLljSVRgtkKyNo+ombQKJyf0lHbB6aBtulfw+oFH7dyGB1SohLJzzq+d8FCiGDzIlKrkyk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>xHR5EOW+ZsrEgQA+uGbpcy9Yrp/lSacZg1yZRPdyI4yTp/2SFw8JFdPy9cGmejypUjLBJqBLDacT7DVIoz1d4KtKhB1ZU3ZNqwSOMJV1T6qYYFIAjAb9AZFZRqoCpH9INZQDp6S7s4MPP+usIpSERo7otvrHrnEg692uqn3TUWU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQO/e0/bkz6IhO+AM0GRr6KDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgARABNAEEAQwBJAEEAXABoAGEAZABlAHMwHhcNMjQwNDI4MDUyMzUwWhcNMjUwNDI4MTEyMzUwWjAjMSEwHwYDVQQDHhgARABNAEEAQwBJAEEAXABoAGEAZABlAHMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMR0eRDlvmbKxIEAPrhm6XMvWK6f5UmnGYNcmUT3ciOMk6f9khcPCRXT8vXBpno8qVIywSagSw2nE+w1SKM9XeCrSoQdWVN2TasEjjCVdU+qmGBSAIwG/QGRWUaqAqR/SDWUA6eku7ODDz/rrCKUhEaO6Lb6x65xIOvdrqp901FlAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAOY4mZWtMzR2Db/Y43q40PEPz467btCWwZE0dvDII8Jil4Ld7da+tSjAiOGSWclUZD+z1Jb+NFLk9EDN1y/LASHYr0mTpCdPs4qrRYErOkoxm4WRGQU42y42rpseUPnnAuu+2QRlEx2rWoDNmnVNU2b0j3Totbon584SpNy1f/24=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

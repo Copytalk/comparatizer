@@ -1,0 +1,16 @@
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\bin\Debug\Comparatizer2.exe.config
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\bin\Debug\Comparatizer2.exe
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\bin\Debug\Comparatizer2.pdb
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2.csproj.AssemblyReference.cache
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2.csproj.SuggestedBindingRedirects.cache
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\MainWindow.g.cs
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\App.g.cs
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2_MarkupCompile.cache
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2_MarkupCompile.lref
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\MainWindow.baml
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2.g.resources
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2.Properties.Resources.resources
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2.csproj.GenerateResource.cache
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2.csproj.CoreCompileInputs.cache
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2.exe
+C:\Users\hades\source\repos\Comparatizer2\Comparatizer2\obj\Debug\Comparatizer2.pdb
